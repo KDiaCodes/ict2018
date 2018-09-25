@@ -1,4 +1,4 @@
-from subprocess import Popen
+import os
 
 def Check():
     if answer == "t":
@@ -25,4 +25,5 @@ def Rectangle():
 print("Would you like to calculate the area of a triangle or rectangle? [t/r]")
 answer = input()
 Check()
-Popen('run.bat', cwd=r'Desktop')
+
+os.system(r'start C:\Windows\System32\cmd.exe /c C:\Users\KENRICSA\Desktop\start.bat')

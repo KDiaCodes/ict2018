@@ -1,4 +1,4 @@
-from subprocess import Popen
+import os
 
 number = int(input("please enter a number "))
 
@@ -7,4 +7,5 @@ if number % 2 == 0:
 else:
     print("it's odd")
 
-Popen('run.bat', cwd=r'Desktop')
+
+os.system(r'start C:\Windows\System32\cmd.exe /c C:\Users\KENRICSA\Desktop\start.bat')
