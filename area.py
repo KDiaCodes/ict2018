@@ -26,4 +26,6 @@ print("Would you like to calculate the area of a triangle or rectangle? [t/r]")
 answer = input()
 Check()
 
+input("Press enter to close")
+
 os.system(r'start C:\Windows\System32\cmd.exe /c C:\Users\KENRICSA\Desktop\start.bat')

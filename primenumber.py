@@ -14,4 +14,6 @@ if num > 1:
 else:
    print(num, "is not a prime number")
 
+input("Press enter to close")
+
 os.system(r'start C:\Windows\System32\cmd.exe /c C:\Users\KENRICSA\Desktop\start.bat')

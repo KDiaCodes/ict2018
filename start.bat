@@ -11,7 +11,7 @@ echo.
 echo Key: [1] Area
 echo [2] odd or even
 echo [3] prime number
-echo [4] Facebook - Social Networking
+echo [4] all prime numbers in a range
 echo [5] Myspace - Social Networking
 echo [6] CNN - News
 echo [7] Weather - Weather
@@ -33,7 +33,7 @@ cls
 if %udefine%==1 CMD /c python area.py
 if %udefine%==2 CMD /c python oddoreven.py
 if %udefine%==3 CMD /c python primenumber.py
-if %udefine%==4 start www.facebook.com
+if %udefine%==4 CMD /c python primenumrange.py
 if %udefine%==5 start www.myspace.com
 if %udefine%==6 start www.cnn.com
 if %udefine%==7 start www.weather.com
