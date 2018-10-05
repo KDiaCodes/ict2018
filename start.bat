@@ -14,7 +14,7 @@ echo [3] prime number
 echo [4] all prime numbers in a range
 echo [5] factorial
 echo [6] sort
-echo [7] Weather - Weather
+echo [7] guess numero
 echo [8] WikiHow - A How-To Website
 echo [9] Instructables - A How-To Website
 echo [10] YouTube - Online Videos
@@ -36,8 +36,8 @@ if %udefine%==3 CMD /c python primenumber.py
 if %udefine%==4 CMD /c python primenumrange.py
 if %udefine%==5 CMD /c python factorial.py
 if %udefine%==6 CMD /c python sortarray.py
-if %udefine%==7 start www.weather.com
-if %udefine%==7 start www.wikihow.com
+if %udefine%==7 CMD /c python guessnumero.py
+if %udefine%==8 start www.wikihow.com
 if %udefine%==9 start www.instructables.com
 if %udefine%==10 start www.youtube.com
 if %udefine%==11 start www.answers.com

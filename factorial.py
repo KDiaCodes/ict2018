@@ -1,20 +1,14 @@
 import os
 
-factorial = 1
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
 
-#else:
-#  for i in range(1,num + 1):
-#       factorial = factorial*i
-#   print("The factorial of",num,"is",factorial)
-r = int(input("Please enter an number: "))
+n = int(input("Input a number to compute the factiorial : "))
 
-if r <= 0:
-    print("input a number larger than 1")
-for n in range(1, siffra):
-        factorial = factorial*n
-
-answer = factorial
-print("number is: " + answer)
+print(factorial(n)) 
 
 input("Press enter to close")
 
