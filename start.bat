@@ -15,7 +15,7 @@ echo [4] all prime numbers in a range
 echo [5] factorial
 echo [6] sort
 echo [7] guess numero
-echo [8] WikiHow - A How-To Website
+echo [8] counting days
 echo [9] Instructables - A How-To Website
 echo [10] YouTube - Online Videos
 echo [11] Answers - Online Encyclopedia
@@ -37,7 +37,7 @@ if %udefine%==4 CMD /c python primenumrange.py
 if %udefine%==5 CMD /c python factorial.py
 if %udefine%==6 CMD /c python sortarray.py
 if %udefine%==7 CMD /c python guessnumero.py
-if %udefine%==8 start www.wikihow.com
+if %udefine%==8 CMD /c python countingdays.py
 if %udefine%==9 start www.instructables.com
 if %udefine%==10 start www.youtube.com
 if %udefine%==11 start www.answers.com
